@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stage_select"
+    tools:context=".select">
+
+    <Button
+        android:id="@+id/lo_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="@dimen/top_btn_sid_con"
+        android:layout_marginTop="@dimen/top_btn_top_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cp_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/top_btn_top_con"
+        android:layout_marginEnd="@dimen/top_btn_sid_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fm_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/sid_tbtn_top_con"
+        android:layout_marginEnd="@dimen/sid_btn_sid_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bk_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/sid_bbtn_top_con"
+        android:layout_marginEnd="@dimen/sid_btn_sid_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fm_btn" />
+
+    <Button
+        android:id="@+id/sc_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/bot_btn_top_con"
+        android:layout_marginEnd="@dimen/bot_btn_sid_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp_btn" />
+
+    <Button
+        android:id="@+id/sm_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="@dimen/bot_btn_sid_con"
+        android:layout_marginTop="@dimen/bot_btn_top_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lo_btn" />
+
+    <Button
+        android:id="@+id/aa_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="@dimen/sid_btn_sid_con"
+        android:layout_marginTop="@dimen/sid_tbtn_top_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/se_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_width"
+        android:layout_marginStart="@dimen/sid_btn_sid_con"
+        android:layout_marginTop="@dimen/sid_bbtn_top_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa_btn" />
+
+    <Button
+        android:id="@+id/mx_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_width"
+        android:layout_marginTop="@dimen/sid_bbtn_top_con"
+        android:layout_marginEnd="@dimen/sid_btn_sid_con"
+        android:foreground="@drawable/button_press1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bk_btn" />
+
+    <Button
+        android:id="@+id/visibleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="67dp"
+        android:text="Visible Buttons (off)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

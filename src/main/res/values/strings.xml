@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MegamanX_MusicPlayer</string>
+    <string name="loop_y">LOOP (Y)</string>
+    <string name="loop_n">LOOP (N)</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_width">70dp</dimen>
+    <dimen name="btn_height">70dp</dimen>
+
+    <dimen name="top_btn_top_con">180dp</dimen>
+    <dimen name="top_btn_sid_con">132dp</dimen>
+
+    <dimen name="sid_btn_sid_con">55dp</dimen>
+    <dimen name="sid_tbtn_top_con">255dp</dimen>
+    <dimen name="sid_bbtn_top_con">8dp</dimen>
+
+    <dimen name="bot_btn_top_con">160dp</dimen>
+    <dimen name="bot_btn_sid_con">132dp</dimen>
+</resources>
